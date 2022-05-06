@@ -1,0 +1,254 @@
+.name{
+    height: 100px;
+    font-size: 30px;
+}
+
+.space{
+    height: 100px;
+}
+
+.g-index1 {
+    width: 800px;
+    border: 20px solid #cdd3f5;
+    background-color: #9bbc91;
+    box-sizing: border-box;
+}
+
+.m1-hd {
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    border: 1px solid black;
+}
+
+.m1-hd>li {
+    list-style: none;
+    width: 80px;
+    height: 80px;
+    background: #cdd3f5;
+    border: 1px solid black;
+}
+
+.m1-hd>li+li {
+    margin-left: 40px;
+}
+
+.m1-hd>li1 {
+    flex: 1;
+}
+
+.m1-bd {
+    display: flex;
+    flex-direction: row;
+    border-top: 10px solid #cdd3f5;
+    box-sizing: border-box;
+}
+
+.m1-bd>.m-lt {
+    padding: 20px;
+    width: 240px;
+    display: flex;
+    align-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+    border-top: 1px  solid black;
+    border-left: 1px  solid black;
+    border-bottom: 1px  solid black;
+}
+
+.m1-bd>.m-lt>li {
+    list-style: none;
+    width: 50px;
+    height: 50px;
+    align-items: flex-end;
+    background: #cdd3f5;
+    border: 1px solid black;
+}
+
+.m1-bd>.m-lt>li+li {
+    margin-left: 25px;
+    margin-top: 25px;
+}
+
+.m1-bd>.m-lt>:nth-child(1) {
+    list-style: none;
+    width: 200px;
+    height: 300px;
+    border: 1px solid black;
+}
+
+.m1-bd>.m-lt>:nth-child(1)+:nth-child(2) {
+    margin-left: 0px;
+}
+
+.m1-bd>.m-rt {
+    padding: 20px;
+    display: flex;
+    width: 473px;
+    align-content: space-between;
+    flex-direction: column;
+    flex-wrap: wrap;
+    border-top: 1px  solid black;
+    border-right: 1px  solid black;
+    border-bottom: 1px  solid black;
+}
+
+.m1-bd>.m-rt>li {
+    list-style: none;
+    width: 480px;
+    height: 40px;
+    align-items: flex-end;
+    border: 1px solid black;
+}
+
+.m1-bd>.m-rt>li+li {
+    margin-top: 20px;
+}
+
+.g-index2 {
+    width: 390px;
+    height: 370px;
+    border: 1px solid black;
+    box-sizing: border-box;
+}
+
+.m2-hd {
+    height: 260px;
+    display: flex;
+    border-bottom: 1px solid black;
+    flex-direction: row;
+}
+
+.m2-bd {
+    display: flex;
+    height: 108px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #f56a8848;
+    box-sizing: border-box;
+}
+
+.m2-bd>span {
+    size: 12px;
+    width: 370px;
+    height: 20px;
+    border: 1px solid black;
+    background-color: white;
+}
+
+.m2-bd>span+span {
+    margin-top: 10px;
+}
+
+.m2-bd>:nth-child(3) {
+    height: 30px;
+}
+
+.t1 {
+    font-size: 15px;
+    font-weight: 600;
+    position: relative;
+    left: 5px;
+}
+
+.t2 {
+    font-size: 15px;
+    font-weight: 600;
+    position: relative;
+    left: 5px;
+    color: #ff3d9e;
+}
+
+.t3 {
+    font-size: 20px;
+    font-weight: 600;
+    position: relative;
+    top: 5px;
+    left: 5px;
+    color: #ff3d9e;
+}
+
+.t4 {
+    font-size: 12px;
+    font-weight: 400;
+    position: relative;
+    left: 11px;
+}
+
+.t5 {
+    font-size: 12px;
+    font-weight: 400;
+    position: relative;
+    top: 5px;
+    left: 125px;
+}
+
+img {
+    position: relative;
+    width: 390px;
+    height: 260px;
+}
+
+.m3-box {
+    width: 1186px;
+    height: 755px;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+}
+
+.m3-box>.sbox+.sbox {
+    margin-left: 5px;
+}
+
+.m3-box>:nth-child(3)+:nth-child(4) {
+    margin-left: 2px;
+}
+
+.sbox {
+    width: 390px;
+    height: 370px;
+    position: relative;
+    margin-top: 3px;
+    margin-left: 3px;
+    border: 1px solid black;
+    box-sizing: border-box;
+}
+
+.hd {
+    height: 260px;
+    display: flex;
+    background-color: #fffeeb;
+    border-bottom: 1px solid black;
+    flex-direction: row;
+}
+
+.bd {
+    display: flex;
+    height: 108px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #f1698748;
+    box-sizing: border-box;
+}
+
+.bd>span {
+    size: 12px;
+    width: 370px;
+    height: 20px;
+    background: white;
+    border: 1px solid black;
+}
+
+.bd>span+span {
+    margin-top: 10px;
+}
+
+.bd>:nth-child(3) {
+    height: 30px;
+}
+

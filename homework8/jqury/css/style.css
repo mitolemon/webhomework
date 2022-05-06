@@ -1,0 +1,110 @@
+.button1,
+.button2,
+.button3 {
+    box-sizing: border-box;
+    height: 20px;
+    width: 50px;
+    border: 1px solid black;
+    border-bottom: 0;
+    background: white;
+}
+
+.button1 {
+    background: #eee;
+}
+
+.box1,
+.box2{
+    width: 700px;
+    height: 500px;
+    padding: 20px;
+    border: 1px solid black;
+    background: #fff;
+}
+
+.box3 {
+    width: 700px;
+    height: 500px;
+    padding: 20px;
+    font-size: 200px;
+    border: 1px solid black;
+    background: #fff;
+    text-align: center;
+}
+
+.row {
+    height: 200px;
+}
+
+.row+.row {
+    margin-top: 20px;
+}
+
+.item {
+    box-sizing: border-box;
+    display: flex;
+    float: left;
+    height: 220px;
+    width: 220px;
+    border: 1px solid black;
+    justify-content: center;
+    align-items: center;
+    font-size: 100px;
+    background: #fff;
+    margin-top: 20px;
+}
+
+.item+.item {
+    margin-left: 20px;
+}
+
+.bigimg {
+    box-sizing: border-box;
+    position: absolute;
+    left: 200px;
+    top: 110px;
+    background: #fff;
+}
+
+.addBtn {
+    box-sizing: border-box;
+    width: 100px;
+    float: right;
+    background: rgb(203, 199, 199);
+    border: 1px solid black;
+    color: black;
+}
+
+.tb {
+    height: 390px;
+}
+
+table {
+    border-collapse: separate;
+    border-spacing: 0px 10px;
+    margin: auto auto;
+}
+
+td {
+    border: 1px solid black;
+}
+
+td:nth-child(1),
+td:nth-child(2) {
+    border-right: 0px;
+}
+
+.t1 {
+    width: 30px;
+    text-align: center;
+}
+
+.t2 {
+    width: 250px;
+    text-align: center;
+}
+
+.t3 {
+    width: 70px;
+    text-align: center;
+}

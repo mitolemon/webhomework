@@ -1,0 +1,302 @@
+body
+{
+  margin: 0;
+}
+
+li{
+  list-style: none;
+}
+
+
+
+.m-menu {
+  font-weight: bold;
+  font-size: 12px;
+  padding: 15px 65px;
+  letter-spacing: 2.0px;
+  color: #666;
+}
+
+.m-item_name+.m-item_name {
+  margin-left: 12px;
+}
+
+.l-01 {
+  font-size: 12px;
+  letter-spacing: 0.35px;
+  position: fixed;
+  left: 35px;
+  top: 70px;
+}
+
+.l-02 {
+  font-size: 18px;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  position: fixed;
+  left: 35px;
+  top: 90px;
+}
+
+.l-03 {
+  font-size: 12px;
+  letter-spacing: 0.7px;
+  position: fixed;
+  left: 35px;
+  top: 120px;
+}
+
+.l-04 {
+  font-size: 12px;
+  letter-spacing: 0.1px;
+  position: fixed;
+  left: 35px;
+  top: 155px;
+}
+
+.l-05 {
+  font-size: 12px;
+  letter-spacing: 0.4px;
+  position: fixed;
+  left: 35px;
+  top: 175px;
+}
+
+.l-11 {
+  font-size: 12px;
+  letter-spacing: 0.35px;
+  position: fixed;
+  left: 35px;
+  top: 240px;
+}
+
+.l-12 {
+  font-size: 18px;
+  font-weight: 600;
+  letter-spacing: 0.1px;
+  position: fixed;
+  left: 35px;
+  top: 260px;
+}
+
+.l-13 {
+  font-size: 12px;
+  letter-spacing: 0.7px;
+  position: fixed;
+  left: 35px;
+  top: 290px;
+}
+
+.l-14 {
+  font-size: 12px;
+  letter-spacing: 0.1px;
+  position: fixed;
+  left: 35px;
+  top: 325px;
+}
+
+.l-15 {
+  font-size: 12px;
+  letter-spacing: 0.4px;
+  position: fixed;
+  left: 35px;
+  top: 345px;
+}
+
+.l-21 {
+  font-size: 12px;
+  letter-spacing: 0.35px;
+  position: fixed;
+  left: 35px;
+  top: 410px;
+}
+
+.l-22 {
+  font-size: 18px;
+  font-weight: 600;
+  letter-spacing: 0.4px;
+  position: fixed;
+  left: 35px;
+  top: 430px;
+}
+
+.l-23 {
+  font-size: 12px;
+  letter-spacing: 0.7px;
+  position: fixed;
+  left: 35px;
+  top: 465px;
+}
+
+.l-24 {
+  font-size: 12px;
+  letter-spacing: 0.1px;
+  position: fixed;
+  left: 35px;
+  top: 495px;
+}
+
+.l-25 {
+  font-size: 12px;
+  letter-spacing: 0.4px;
+  position: fixed;
+  left: 35px;
+  top: 515px;
+}
+
+.r-01 {
+  font-size: 20px;
+  font-weight: 600;
+  position: fixed;
+  left: 770px;
+  top: 100px;
+}
+
+.no-1 {
+  font-size: 23px;
+  position: fixed;
+  left: 770px;
+  top: 175px;
+}
+
+.r-11 {
+  font-size: 15px;
+  font-weight: 600;
+  position: fixed;
+  left: 815px;
+  top: 180px;
+}
+
+.r-12 {
+  font-size: 15px;
+  font-weight: 600;
+  position: fixed;
+  left: 815px;
+  top: 200px;
+}
+
+.r-13 {
+  font-size: 15px;
+  font-weight: 600;
+  position: fixed;
+  left: 815px;
+  top: 220px;
+}
+
+.r-14 {
+  font-size: 12px;
+  position: fixed;
+  left: 815px;
+  top: 245px;
+}
+
+.r-15 {
+  font-size: 12px;
+  position: fixed;
+  left: 815px;
+  top: 265px;
+}
+
+.no-2 {
+  font-size: 23px;
+  position: fixed;
+  left: 772px;
+  top: 305px;
+}
+
+.r-21 {
+  font-size: 15px;
+  font-weight: 600;
+  position: fixed;
+  left: 815px;
+  top: 310px;
+}
+
+.r-22 {
+  font-size: 15px;
+  font-weight: 600;
+  position: fixed;
+  left: 815px;
+  top: 330px;
+}
+
+.r-23 {
+  font-size: 15px;
+  font-weight: 600;
+  position: fixed;
+  left: 815px;
+  top: 350px;
+}
+
+.r-24 {
+  font-size: 12px;
+  position: fixed;
+  left: 815px;
+  top: 375px;
+}
+
+.r-25 {
+  font-size: 12px;
+  position: fixed;
+  left: 815px;
+  top: 394px;
+}
+
+.no-3 {
+  font-size: 23px;
+  position: fixed;
+  left: 772px;
+  top: 435px;
+}
+
+.r-31 {
+  font-size: 15px;
+  font-weight: 600;
+  position: fixed;
+  left: 815px;
+  top: 435px;
+}
+
+.r-32 {
+  font-size: 15px;
+  font-weight: 600;
+  position: fixed;
+  left: 815px;
+  top: 455px;
+}
+
+.r-33 {
+  font-size: 12px;
+  position: fixed;
+  left: 815px;
+  top: 484px;
+}
+
+.r-34 {
+  font-size: 12px;
+  position: fixed;
+  left: 815px;
+  top: 503px;
+}
+
+.img1 {
+  background-color: black;
+  margin: 0px 540px;
+  width: 150px;
+  height: 125px;
+}
+
+.img2 {
+  background-color: black;
+  margin: 50px 540px;
+  width: 150px;
+  height: 125px;
+}
+
+.img3 {
+  background-color: black;
+  margin: 50px 540px;
+  width: 150px;
+  height: 125px;
+}
+
